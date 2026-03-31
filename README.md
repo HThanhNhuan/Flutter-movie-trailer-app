@@ -4,6 +4,8 @@ A feature-rich **Flutter mobile application** for discovering movies, exploring 
 
 > This project focuses on turning raw movie data into a user-friendly mobile product through API integration, state management, local storage, notification workflows, and cinematic UI design.
 
+**Tags:** `flutter`, `dart`, `mobile-app`, `tmdb-api`, `sqlite`, `provider`, `gorouter`, `movie-app`, `state-management`, `rest-api`
+
 ---
 
 ## 1. Project Overview
@@ -40,6 +42,7 @@ For a CV or portfolio, this project highlights the ability to build a complete m
 ## 3. Core Features
 
 ### Movie Discovery
+
 - Browse movies by category:
   - Now Playing
   - Popular
@@ -49,11 +52,13 @@ For a CV or portfolio, this project highlights the ability to build a complete m
 - Pull-to-refresh on the home screen
 
 ### Movie Search
+
 - Search movies by title through TMDb API
 - Display results in a responsive grid layout
 - Open any result directly into the detail screen
 
 ### Detailed Movie Information
+
 - Full movie details fetched from TMDb
 - Genres, rating, overview, and production companies
 - Cast list and actor detail pages
@@ -62,11 +67,13 @@ For a CV or portfolio, this project highlights the ability to build a complete m
 - Embedded trailer/video playback
 
 ### Favorites System
+
 - Save favorite movies locally using SQLite
 - Remove favorites instantly
 - Persist favorite list between sessions
 
 ### Notification System
+
 - Local notifications for selected upcoming movies
 - Scheduled reminders for future notifications
 - In-app notification center with categorized items:
@@ -77,6 +84,7 @@ For a CV or portfolio, this project highlights the ability to build a complete m
 - Deep-link navigation from notification to movie detail page
 
 ### UI / UX Enhancements
+
 - Light mode and dark mode support
 - Animated neon background
 - Hero transitions and cinematic detail page animation
@@ -88,21 +96,21 @@ For a CV or portfolio, this project highlights the ability to build a complete m
 
 ## 4. Technology Stack
 
-| Category | Technology |
-|---|---|
-| Framework | Flutter |
-| Language | Dart |
-| State Management | Provider, Riverpod |
-| Navigation | GoRouter |
-| API Source | The Movie Database (TMDb) API |
-| HTTP Client | `http` |
-| Local Database | SQLite via `sqflite` |
-| Local Storage | `shared_preferences` |
-| Notifications | `flutter_local_notifications` |
-| Badge Support | `flutter_app_badger` |
-| Media | `youtube_player_flutter` |
-| Image Handling | `cached_network_image` |
-| UI Effects | `shimmer`, `palette_generator`, `carousel_slider`, custom animation widgets |
+| Category         | Technology                                                                  |
+| ---------------- | --------------------------------------------------------------------------- |
+| Framework        | Flutter                                                                     |
+| Language         | Dart                                                                        |
+| State Management | Provider, Riverpod                                                          |
+| Navigation       | GoRouter                                                                    |
+| API Source       | The Movie Database (TMDb) API                                               |
+| HTTP Client      | `http`                                                                      |
+| Local Database   | SQLite via `sqflite`                                                        |
+| Local Storage    | `shared_preferences`                                                        |
+| Notifications    | `flutter_local_notifications`                                               |
+| Badge Support    | `flutter_app_badger`                                                        |
+| Media            | `youtube_player_flutter`                                                    |
+| Image Handling   | `cached_network_image`                                                      |
+| UI Effects       | `shimmer`, `palette_generator`, `carousel_slider`, custom animation widgets |
 
 ---
 
@@ -156,6 +164,7 @@ lib/
 ## 8. Setup and Run
 
 ### Prerequisites
+
 - Flutter SDK installed
 - Android Studio or VS Code with Flutter extension
 - Android emulator or physical device
@@ -226,7 +235,14 @@ This project is suitable for showcasing the following strengths in a CV:
 
 ---
 
-## 12. Credits
+## 12. Developed By
+
+- **Trần Thị Kim Phụng**
+- **Huỳnh Thanh Nhuận**
+
+---
+
+## 13. Credits
 
 Movie data is provided by **The Movie Database (TMDb)**.
 
